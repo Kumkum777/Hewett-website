@@ -1,0 +1,375 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  background-color: rgb(255, 255, 255);
+  margin:0px 3%;
+}
+body{
+  background-color: antiquewhite;
+}
+nav{
+ display: flex;
+ flex-direction: row !important;
+ gap: 8%;
+}
+.logo{
+  margin:2% 6%;
+  height:40px;
+  width: 60px;
+}
+.nav_action{
+  gap: 27px;
+  margin: 3% 0%;
+  width: 100%;
+}
+.nav_action a{
+  margin-right: 15px;
+  text-decoration: none;    
+  padding-bottom: 20px;
+}
+.nav_action a:hover{
+    border-bottom:2px solid  rgb(255, 208, 90);
+    transition-duration: 0.1s;
+    transition: all 1s ease-in;
+}
+.nav_action {
+  display: flex;
+  flex-direction: row;
+}
+.nav_action ul {
+  list-style-type:  none;
+}
+main{
+  width: 100%;
+  height: 500px;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 0px 0px 3px grey ;
+  position: relative;
+  overflow: hidden ;
+
+}
+.header_slider{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.nav{
+  text-align: center;
+  margin-top: 15px;
+}
+.nav button{
+  height: 20px;
+  width: 60px;
+  cursor: pointer;
+  position: absolute;
+  background: transparent;
+  color: rgb(255, 255, 255);
+  border:none;
+  font-weight:700;
+}
+.p{
+  margin-top: 250px;
+  left: 5px;
+}
+.n{
+  right:5px;
+  margin-top: 250px;
+}
+.hostel{
+  margin: 2px 35px ;
+  margin-top: 7%;
+  margin-bottom: 20px !important;
+  padding:20px;
+  background-color: rgb(211, 237, 248);
+  border-radius: 5px;
+  gap: 30%;
+  display: flex;
+  flex-direction: row;
+  border:1px solid rgb(178, 219, 235);
+}
+.hostel i{
+  color: rgb(87, 185, 250);
+  font-size: 22px;
+}
+.hostel h2{
+  color: rgb(255, 19, 19);
+  margin-top: -10px;
+  margin-right: 20px;
+  font-weight: 700;
+}
+.min{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.quick_links{
+  display: flex;
+  flex-direction: column;
+}
+.cont{
+width: 25%;
+padding: 10px 35px;
+}
+.contt{
+width: 50%;
+padding: 10px;
+}
+.conttt{
+width: 25%;
+padding: 10px;
+}
+.quick_links {
+  margin-top: 15px;
+  gap: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.quick_links a{
+  text-decoration: none;
+}
+.quick_linkss{
+  margin-top: 15px;
+  line-height: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.center{
+margin-top: 20px;
+padding: 35px;
+border: 1px solid  rgb(250, 158, 157);
+box-shadow: inset 0px 0px 54px 3px rgb(238, 201, 201);
+}
+.center img{
+  width: 280px;
+  margin-top: 10px;
+}
+
+.slider{
+  width: 100%;
+  height: 555px;
+  background-image: url('https://hewettpolytechnic.org/wp-content/uploads/2022/07/83458654.jpeg');
+  background-size: 100% 100%;
+  animation: changeImage 8s linear infinite;
+  opacity: 9px;
+}
+.min-part img{
+  width: 100%;
+}
+@keyframes changeImage {
+  0% , 20%{
+    background-image: url('https://hewettpolytechnic.org/wp-content/uploads/2022/07/83458654.jpeg');
+  }
+  21% , 40%{
+    background-image: url('https://hewettpolytechnic.org/wp-content/uploads/2022/07/0584695.jpeg');
+  }
+  41% , 60%{
+    background-image: url('https://hewettpolytechnic.org/wp-content/uploads/2022/07/8645854-8.jpeg');
+  }
+  61% , 80%{
+    background-image: url('https://hewettpolytechnic.org/wp-content/uploads/2022/07/73647324.jpeg');
+  }
+  81% , 100%{
+    background-image: url('https://hewettpolytechnic.org/wp-content/uploads/2022/07/83458654.jpeg');
+  }
+}
+.min-part{
+  margin:  30px 0px;
+}
+.text{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -200px;
+}
+.k{
+  width: 200px;
+  height: 150px;
+}
+.k h1{
+  color: rgb(252, 175, 75);
+  display: flex;
+  justify-content: center;
+}
+.k p{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.our-courses{  
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.our-courses h1{
+  font-weight: 700px;
+  margin-bottom: 30px ;
+  padding-left:40px ;
+}
+.course{
+  display: flex;  
+  flex-direction: row;
+  margin: 0px 30px;
+  gap: 18px;
+}
+.bottom{
+  margin-top: 30px;
+  background-color: rgb(18, 18, 18);
+}
+.upprt-bottom{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.upprt-bottom h1{
+color: #fff;
+}
+.bottom-bottom{
+  padding: 0px 6%;
+  line-height:38px;
+  display: flex;
+  flex-direction: row;
+}
+.bottom-bottom i{
+  color: rgb(189, 83, 7);
+  margin-right: 8px;
+  
+}
+.bottom-bottom p{
+  color: #fff;
+}
+.bottom-bottom-map iframe{
+  width: 179%;
+  height:240px;
+  margin-left: 50px;
+}
+.b{
+display: flex;
+background-color: #000;
+flex-direction: row;
+padding: 30px 7%;
+justify-content: space-between;
+}
+.pp{
+ color: #fff;
+}
+.pp p{
+  padding-bottom: 8px;
+}
+.ppp{
+ display: flex;
+ justify-content: flex-end;
+ gap: 15px;
+}
+.ppp a{
+ text-decoration: none;
+ color: #fff;
+}
+.ppp a:hover{
+  color: #f1a253;
+  padding: 5px 8px;
+  margin-bottom: 0px !important;
+  border-radius: 20px;
+  transition:0.5s;
+}
+@media screen and (max-width: 868px) {
+  .nav_action{
+    display: none !important;
+  }
+  .center{
+margin-top: 20px;
+padding: 35px;
+border: 1px solid  rgb(250, 158, 157);
+box-shadow: inset 0px 0px 54px 3px rgb(238, 201, 201);
+}
+.center img{
+  width: 180px;
+  margin-top: 10px;
+}
+.text{
+  margin-top:-120px;
+}
+.k{
+  width: 130px;
+  height: 75px;
+}
+.k h1{
+   font-size: 15px;  
+}
+.k p{
+  font-size: 10px;
+}
+.course{
+  display: flex;  
+  flex-direction: column;
+}
+.course img{
+  width: 200px;
+}
+.bottom-bottom{
+  display: flex;
+  flex-direction: column;
+}
+.bottom-bottom-map iframe{
+  width: 80%;
+  height:240px;
+}
+.b{
+display: flex;
+flex-direction: column;
+}
+.ppp{
+ display: flex;
+ justify-content: center;
+ gap: 15px;
+}
+.ppp a{
+  margin-top: 30px;
+}
+
+.min{
+ width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.quick_links{
+  display: flex;
+  flex-direction: column;
+}
+.cont{
+width: 100%;
+padding: 10px 35px;
+}
+.contt{
+width: 95%;
+padding: 10px;
+}
+.conttt{
+width: 100%;
+padding: 10px;
+}
+.quick_links {
+  margin-top: 15px;
+  gap: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.quick_links a{
+  text-decoration: none;
+}
+.quick_linkss{
+  margin-top: 15px;
+  line-height: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.center{
+margin-top: 20px;
+border: 1px solid  rgb(250, 158, 157);
+box-shadow: inset 0px 0px 54px 3px rgb(238, 201, 201);
+}
+.center img{
+  width: 280px;
+  margin-top: 10px;
+}
+}
