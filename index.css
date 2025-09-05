@@ -299,6 +299,7 @@ box-shadow: inset 0px 0px 54px 3px rgb(238, 201, 201);
 .course{
   display: flex;  
   flex-direction: column;
+  gap: 40px;
 }
 .course img{
   width: 100%;
@@ -393,6 +394,5 @@ box-shadow: inset 0px 0px 54px 3px rgb(238, 201, 201);
   height:240px;
   margin-left: 0px;
 }
-
 
 }
