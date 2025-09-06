@@ -31,8 +31,6 @@ nav{
 }
 .nav_action a:hover{
     border-bottom:2px solid  rgb(255, 208, 90);
-    transition-duration: 0.1s;
-    transition: all 1s ease-in;
 }
 .nav_action {
   display: flex;
@@ -307,10 +305,6 @@ box-shadow: inset 0px 0px 54px 3px rgb(238, 201, 201);
 .bottom-bottom{
   display: flex;
   flex-direction: column;
-}
-.bottom-bottom-map iframe{
-  width: 80%;
-  height:240px;
 }
 .b{
 display: flex;
